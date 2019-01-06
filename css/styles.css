@@ -69,8 +69,7 @@ hr {
 }
 
 .numbers h2 {
-    font-size: 2em !important;
-    font-family: Roboto;
+    font-size: 4em !important;\
     letter-spacing: 0px;
 }
 
@@ -154,8 +153,19 @@ li {
 
 .about i {
     color: grey;
-    margin-bottom: 2em;
     margin-right: 1em;
+    margin-bottom: 30px;
+}
+
+.numbers i {
+    margin-bottom: 0px !important;
+    align-self: center;
+    color: #c9e4e8;
+}
+
+.numbers {
+    margin-top: 25px;
+    margin-left: 10px;
 }
 
 .articles img  {
