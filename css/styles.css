@@ -138,6 +138,10 @@ li {
     filter: grayscale(0%);
 }
 
+.photography a {
+    color: #4195a0;
+}
+
 .center {
     text-align: center;
     margin-top: 1em;
@@ -187,7 +191,7 @@ li {
 }
 
 .articles a {
-    color: #343d46;
+    color: #4195a0;
 }
 
 .contact i {
