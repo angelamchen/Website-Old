@@ -31,21 +31,20 @@
                     <a class="nav-link" href="index.html">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">PROJECTS</a>
+                    <a class="nav-link" href="#" onclick="smoothScroll(document.getElementById('about'))">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="photography.html">PHOTOGRAPHY</a>
+                    <a class="nav-link" href="#" onclick="smoothScroll(document.getElementById('photography'))">PHOTOGRAPHY</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://medium.com/@angelachen085">BLOG</a>
+                    <a class="nav-link" href="#" onclick="smoothScroll(document.getElementById('articles'))">BLOG</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
+                    <a class="nav-link" href="#" onclick="smoothScroll(document.getElementById('contact'))">CONTACT</a>
                 </li>
             </ul>
         </div>
     </nav> -->
-
 
     <!-- Header -->
     <header class="jumbotron vertical-center">
@@ -57,6 +56,8 @@
                         <h1>I'M ANGELA</h1>
                         <p>VARSITY ATHLETE, PROGRAMMER, HOBBIEST</p>
                         <P>BASED IN TORONTO, CANADA</P>
+                        <button type="button" class="btn btn-light" onclick="smoothScroll(document.getElementById('about'))">Learn
+                            more</button>
                     </div>
                 </div>
             </div>
@@ -65,8 +66,8 @@
 
     <!--About me Section-->
     <div class="sections">
-        <div class="container">
-            <div class="about">
+        <div id="about">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-9">
                         <h2>angela who?</h2>
@@ -101,7 +102,6 @@
                                 <i class="fab fa-html5 fa-lg"></i>
                                 <i class="fab fa-css3-alt fa-lg"></i>
                                 <i class="fab fa-angular fa-lg"></i>
-                                <i class="fab fa-js-square fa-lg"></i>
                                 <i class="fas fa-code-branch fa-lg"></i>
                                 <i class="fas fa-lightbulb fa-lg"></i>
                                 <i class="fas fa-circle-notch fa-lg"></i>
@@ -174,7 +174,7 @@
     <hr>-->
 
     <!--Photography Section-->
-    <div class="photography">
+    <div id="photography">
         <div class="sections">
             <div class="container">
                 <h2>photography.</h2>
@@ -218,7 +218,7 @@
 
 
     <!--Blog Section-->
-    <div class="articles">
+    <div id="articles">
         <div class="sections">
             <div class="container">
                 <h2>articles.</h2>
@@ -239,7 +239,8 @@
                 </div>
                 <div class="row justify-content-md-center">
                     <div class="col-8">
-                        <p class="center">More articles coming soon <a href="#">here!</a> </p>
+                        <p class="center">More articles coming soon <a href="https://medium.com/@angelachen085">here!</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -247,7 +248,7 @@
     </div>
 
     <!--Contact Section-->
-    <div class="contact">
+    <div id="contact">
         <div class="sections">
             <div class="container">
                 <div class="row justify-content-md-center">
@@ -277,6 +278,10 @@
                                 <i class="fab fa-instagram"></i></a>
                         </div>
                         <div class="col-sm-12 col-md-2">
+                            <a class="btn btn-default btn-sm" href="https://github.com/angelamuyangchen">
+                                <i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="col-sm-12 col-md-2">
                             <a class="btn btn-default btn-sm" href="mailto:angelachen085@gmail.com">
                                 <i class="fas fa-envelope"></i></a>
                         </div>
@@ -289,7 +294,7 @@
     <script src="js/jquery-3.3.1.min.js">
     </script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/actions.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

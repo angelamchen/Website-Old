@@ -21,7 +21,7 @@ body {
 
 .jumbotron h1 {
     color: #cecece;
-    font-size: 10vw;
+    font-size: 11em;
     font-family: Staatliches;
     letter-spacing: 1vw;
 }
@@ -29,8 +29,21 @@ body {
 .jumbotron p {
     margin-top: 0.5;
     color: #6db3ce;
-    font-size: 2vw;
+    font-size: 3em;
     font-family: Staatliches;
+}
+
+.jumbotron button {
+    margin-top: 20px;
+    border-color: #6db3ce;
+    font-family: Staatliches;
+    font-size: 2em;
+}
+
+.jumbotron button:hover {
+    background-color: #343d46;
+    color: #6db3ce;
+    border-color: white;
 }
 
 hr {
@@ -51,20 +64,20 @@ hr {
 }
 
 
-.about img {
+#about img {
     margin-right: 40px;
     padding-bottom: 20px;
 }
 
-.about h2 {
+#about h2 {
     text-align: left;
 }
 
-.about p {
+#about p {
     margin-bottom: 3em; 
 }
 
-.about h5 {
+#about h5 {
     margin-bottom: 2em
 }
 
@@ -118,26 +131,26 @@ li {
       border: 2px solid #74dae8;
       }
 
-.photography img {
+#photography img {
     -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
     margin-bottom: 10px;
 }
 
-.contact {
+#contact {
     background-color: #343d46  !important;
 }
 
-.contact h2 {
+#contact h2 {
     color: #74dae8;
 }
 
-.photography img:hover {
+#photography img:hover {
     -webkit-filter: grayscale(0%); 
     filter: grayscale(0%);
 }
 
-.photography a {
+#photography a {
     color: #4195a0;
 }
 
@@ -151,7 +164,7 @@ li {
     margin-bottom: 2em;
 }
 
-.about i {
+#about i {
     color: grey;
     margin-right: 1em;
     margin-bottom: 30px;
@@ -160,7 +173,7 @@ li {
 .numbers i {
     margin-bottom: 0px !important;
     align-self: center;
-    color: #c9e4e8;
+    color: #c9e4e8 !important;
 }
 
 .numbers {
@@ -168,7 +181,7 @@ li {
     margin-left: 10px;
 }
 
-.articles img  {
+#articles img  {
     -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
     margin-bottom: 10px;
@@ -193,18 +206,18 @@ li {
     color: white !important;
 }
 
-.articles h5 {
+#articles h5 {
     font-family: Staatliches;
     font-size: 2em;
     letter-spacing: 2px;
     text-align: center;
 }
 
-.articles a {
+#articles a {
     color: #4195a0;
 }
 
-.contact i {
+#contact i {
     color: white;
 }
 
@@ -216,6 +229,20 @@ li {
     color: grey;
 }
 
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1550px;
+    padding-top: .5rem;
+    width: 93%;
 
+}
+
+.main-header a{
+    letter-spacing: .18rem;
+    text-transform: uppercase;
+}
 
 
